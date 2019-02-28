@@ -1,0 +1,45 @@
+body{
+    background-image:url('../images/13845.jpg');
+    background-repeat:no-repeat;
+    background-size:auto;
+    background-position: top center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1300px) {
+    body{
+        background-size: 1300px;
+    }
+}
