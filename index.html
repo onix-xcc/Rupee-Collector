@@ -10,7 +10,7 @@
     <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
     <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">-->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
-    <script src="assets/javascript/game.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 </head>
 
 <body>
@@ -46,21 +46,27 @@
 
     <div class="game" id="trackWinsLosses">
         <h3>Wins:
-            <span id="winCounter"></span>
+            <span id="winCounter">0</span>
             <br>
             Losses:
-            <span id="lossCounter"></span>
+            <span id="lossCounter">0</span>
         </h3>
     </div>
 
     <div class="game" id="rupeeArea">
-        <img src="assets/images/greenRupee.png" class=rupeeImg id="one" alt="Green Rupee">
-        <img src="assets/images/blueRupee.png" class=rupeeImg id="five" alt="Blue Rupee">
-        <img src="assets/images/RedRupee.png" class=rupeeImg id="twenty" alt="Red Rupee">
-        <img src="assets/images/purpleRupee.png" class=rupeeImg id="fifty" alt="Purple Rupee">
+        <img src="assets/images/greenRupee.png" class="rupeeImg" id="one" alt="Green Rupee">
+        <img src="assets/images/blueRupee.png" class="rupeeImg" id="five" alt="Blue Rupee">
+        <img src="assets/images/RedRupee.png" class="rupeeImg" id="twenty" alt="Red Rupee">
+        <img src="assets/images/purpleRupee.png" class="rupeeImg" id="fifty" alt="Purple Rupee">
+        <div>
+            <h3>Collected:
+                <span id="rupeesCollected"></span>
+            </h3>
+        </div>
     </div>
 
-
+    <!--NEVER FORGET TO PUT THIS AT THE BOTTOM OR ELSE YOU'RE PROBABLY GONNA CRY BECAUSE THE CODE DOESN'T RUN-->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 
 </html>
