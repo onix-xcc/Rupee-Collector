@@ -113,16 +113,16 @@ li#purpleRupee {
     }
 }
 
-@media(max-width: 365px) {
-    div#rupeeArea img {
-        width: 45px;
-    }
-}
-
 @media(max-width: 420px) {
     div#gameRules {
         width: 90%;
         margin-left: 10px;
+    }
+}
+
+@media(max-width: 365px) {
+    div#rupeeArea img {
+        width: 42px;
     }
 }
 
