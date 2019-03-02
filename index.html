@@ -16,14 +16,13 @@
 <body>
 
     <div class="header">
-        <a href="https://fontmeme.com/fonts/the-wild-breath-of-zelda-font/"><img src="https://fontmeme.com/permalink/190301/2cd311c003df1581d26b6f452c5085d6.png"
-                alt="the-wild-breath-of-zelda-font"></a>
+        <img src="https://fontmeme.com/permalink/190301/2cd311c003df1581d26b6f452c5085d6.png" alt="The Rupee Collector"></a>
     </div>
 
     <div class="game" id="gameRules">
-        <h2>Here are the rules</h2>
+        <h2 id="ruleImg"><img src="https://fontmeme.com/permalink/190302/9ab9fd81e3fdec9883e8a8a36c42fa5d.png" alt="Game Rules"></h2>
         <hr>
-        <ol>
+        <ol class="list">
             <li>The game will provide you with a random-numbered value and to win you have to match it equally.</li><br>
             <li>How do you match it? You are going to be given 4 different colored rupees:
                 <ol>
@@ -32,9 +31,9 @@
                     <li id="redRupee">Red Rupee <img src="assets/images/redRupIcon.png"></li>
                     <li id="purpleRupee">Purple Rupee <img src="assets/images/purpleRupIcon.png"></li>
                 </ol>
-            </li>
+            </li><br>
             <li>Each round, each rupee's value is randomly selected from a range between numbers 1-12 and will remain
-                hidden</li>
+                hidden</li><br>
             <li>If you do not match the number because you went past the value or fell short, you lose.</li>
         </ol>
     </div>
@@ -46,15 +45,15 @@
     </div>
 
     <div class="game" id="trackWinsLosses">
-        <h3>Wins: 
+        <h3>Wins:
             <span id="winCounter"></span>
-        <br>
-        Losses: 
+            <br>
+            Losses:
             <span id="lossCounter"></span>
         </h3>
     </div>
 
-    <div class="game" id="rupees">
+    <div class="game" id="rupeeArea">
         <img src="assets/images/greenRupee.png" class=rupeeImg id="one" alt="Green Rupee">
         <img src="assets/images/blueRupee.png" class=rupeeImg id="five" alt="Blue Rupee">
         <img src="assets/images/RedRupee.png" class=rupeeImg id="twenty" alt="Red Rupee">
