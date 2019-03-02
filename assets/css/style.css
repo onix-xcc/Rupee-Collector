@@ -1,10 +1,64 @@
 body{
-    background-image:url('../images/13845.jpg');
-    background-repeat:no-repeat;
-    background-size:auto;
+    background-image: url('../images/13845.jpg');
+    background-repeat: repeat;
+    background-size: auto;
     background-position: top center;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 18px;
 }
 
+div{
+    background-color: #0eabee; 
+    border-width: 8px;
+    border-style: double;
+    border-color: white;
+    margin: 20px;
+}
+
+div.header {
+    margin: auto;
+    width: 88%;
+    text-align: center;
+}
+
+div.header img {
+   padding:  20px;
+   height: 50px;
+}
+
+div.game {
+    float: left;
+}
+
+div#gameRules {
+    width: 46%;
+}
+
+div#gameRules h2{
+    text-align: center;
+}
+
+div#gameRules img{
+    height: 20px;
+}
+
+li#greenRupee {
+   color:  #10E629;
+}
+
+li#blueRupee {
+    color:  #0346F0;
+ }
+
+ li#redRupee {
+    color: #F9002B;
+ }
+
+ li#purpleRupee {
+    color:  #C900F9;
+ }
+ 
 
 
 
